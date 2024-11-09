@@ -25,11 +25,11 @@ Low and behold, I had a *Eureka!* moment when Gemini suggested that I should set
 
 - **Development Process**: Agile Development
 - **Technologies used**:
- - C#
- - ASP.NET Core MVC
- - HTML
- - CSS
- - JavaScript
+    - C#
+    - ASP.NET Core MVC
+    - HTML
+    - CSS
+    - JavaScript
 
 ## Roadmap
 
@@ -66,13 +66,18 @@ Low and behold, I had a *Eureka!* moment when Gemini suggested that I should set
 
 - <ins>Technologies</ins>: C#, ASP.NET Core MVC, HTML, CSS, JavaScript.
 - <ins>APIs</ins>: NBA Stats API
-- <ins>Visualization Library</ins>: Choose a library for charts/graphs (e.g., Chart.js, D3.js).
+- <ins>Visualization Library</ins>: Chart.js
 
 #### 3. **Design**
 
-- <ins>Wireframes/Mockups</ins>: Create UI/UX designs for the application.
-- <ins>Data Flow Diagrams</ins>: Map out how data will move through the system.
-- <ins>Architecture</ins>: Design the application architecture, including backend services and database schema.
+<ins>Wireframes/Mockups</ins>: Figma
+
+1. <ins>User Flow Diagrams</ins>: Map out the user experience via flow diagram
+2. <ins>User Experience (UX)</ins>: design the structure of the site
+3. <ins>User Interface (UI)</ins>: decide on visuals (reusable components)
+    - Realtime Colors
+4. <ins>Data Flow Diagrams</ins>: Map out how data will move through the system.
+5. <ins>Architecture</ins>: Design the application architecture, including backend services and database schema.
 
 #### 4. **Specifications**
 
