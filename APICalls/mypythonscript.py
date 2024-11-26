@@ -1,8 +1,4 @@
-import os
+from nba_api.stats.static import players
 
-def say_hello():
-    return "Hello world! I'm a python script!"
-
-# def test(message):
-#     directory = osgetcwd()
-#     return message + ": " + directory
+# Create a dictionary for every NBA player ever (ID, playername)
+player_dict = players.get_players()

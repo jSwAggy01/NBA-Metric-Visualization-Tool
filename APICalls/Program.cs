@@ -15,9 +15,5 @@ static void RunScript(string scriptName)
         
         // Now try to import your script
         var pythonScript = Py.Import(scriptName);
-        var result = pythonScript.InvokeMethod("say_hello");
-
-        // Output it from the script
-        Console.WriteLine(result);
     }
 }
