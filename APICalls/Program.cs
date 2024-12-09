@@ -1,6 +1,6 @@
 ﻿using Python.Runtime;
 
-RunScript("mypythonscript");
+RunScript("tutorialScript");
 
 static void RunScript(string scriptName)
 {
