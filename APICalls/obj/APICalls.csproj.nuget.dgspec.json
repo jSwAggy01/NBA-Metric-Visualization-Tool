@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\Sorting-Algorithm-Visualizer\\APICalls\\APICalls.csproj": {}
+    "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\NBA-Metric-Visualization-Tool\\APICalls\\APICalls.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\Sorting-Algorithm-Visualizer\\APICalls\\APICalls.csproj": {
+    "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\NBA-Metric-Visualization-Tool\\APICalls\\APICalls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\Sorting-Algorithm-Visualizer\\APICalls\\APICalls.csproj",
+        "projectUniqueName": "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\NBA-Metric-Visualization-Tool\\APICalls\\APICalls.csproj",
         "projectName": "APICalls",
-        "projectPath": "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\Sorting-Algorithm-Visualizer\\APICalls\\APICalls.csproj",
+        "projectPath": "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\NBA-Metric-Visualization-Tool\\APICalls\\APICalls.csproj",
         "packagesPath": "C:\\Users\\jSwAggy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\Sorting-Algorithm-Visualizer\\APICalls\\obj\\",
+        "outputPath": "C:\\Users\\jSwAggy\\Documents\\My Workspace\\GitHub\\NBA-Metric-Visualization-Tool\\APICalls\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jSwAggy\\AppData\\Roaming\\NuGet\\NuGet.Config"

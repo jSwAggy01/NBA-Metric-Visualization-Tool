@@ -1,6 +1,7 @@
 ﻿using Python.Runtime;
 
-RunScript("tutorialScript");
+// RunScript("tutorialScript");
+RunScript("statsScript");
 
 static void RunScript(string scriptName)
 {
