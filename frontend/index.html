@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA Analytics Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Background Video -->
+    <div class="video-container">
+      <video autoplay muted loop id="background-video">
+        <source src="background.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <header>
+      <div class="social-links">
+        <a href="https://github.com/jSwAggy01" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jasondeleon2432/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="section home-section">
+        <div class="container">
+          <h1>NBA Analytics Visualizer</h1>
+          <p>Explore interactive analytics and visualizations for NBA data.</p>
+          <a href="tool.html" class="cta-button">Get Started</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <h2>About the Project</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                The NBA Analytics Visualizer is a powerful tool designed to help
+                basketball enthusiasts, analysts, and fans explore and
+                understand NBA data in meaningful ways.
+              </p>
+              <p>
+                Our platform provides interactive visualizations for player
+                statistics, team performance metrics, historical trends, and
+                much more.
+              </p>
+              <p>
+                Whether you're a fantasy basketball player looking for an edge,
+                a coach analyzing opponent tendencies, or simply a fan who loves
+                diving into stats, our tool offers intuitive ways to interact
+                with NBA data.
+              </p>
+            </div>
+            <div class="features">
+              <h3>Key Features</h3>
+              <ul>
+                <li>Player performance analytics</li>
+                <li>Team statistics comparisons</li>
+                <li>Historical trend analysis</li>
+                <li>Custom data filtering</li>
+                <li>Visual data exploration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="contact-content">
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+              <h3>Get in Touch</h3>
+              <p>
+                Have questions or suggestions about the NBA Analytics
+                Visualizer? We'd love to hear from you!
+              </p>
+              <div class="contact-methods">
+                <p><i class="fas fa-map-marker-alt"></i> &nbsp;Highland, CA</p>
+                <div class="social-contact">
+                  <a href="https://github.com/jSwAggy01" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/jasondeleon2432/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="mailto:support@nbavisualizer.com" target="_blank"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
